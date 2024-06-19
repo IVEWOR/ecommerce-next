@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Custom CSS */
+
+.product-card:hover .featured-img-f,
+.featured-img-b {
+  opacity: 0;
+  transition: cubic-bezier(1, 0, 0, 1) .3s all;
+}
+
+.product-card:hover .featured-img-b {
+  opacity: 1;
+}
