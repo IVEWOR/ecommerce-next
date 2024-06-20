@@ -35,11 +35,13 @@ body {
 /* Custom CSS */
 
 .product-card:hover .featured-img-f,
-.featured-img-b {
+.featured-img-b,
+.product-card-btn {
   opacity: 0;
-  transition: cubic-bezier(1, 0, 0, 1) .3s all;
+  transition: ease-in-out .5s all;
 }
 
-.product-card:hover .featured-img-b {
+.product-card:hover .featured-img-b,
+.product-card:hover .product-card-btn {
   opacity: 1;
 }
