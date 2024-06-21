@@ -1,12 +1,10 @@
-import Image from "next/image";
-import Header from "@/components/header";
 import Card from "@/components/product/Card";
+import SiteBase from "@/components/SiteBase";
 
 export default function Home() {
   return (
-    <main className="">
-      <Header />
+    <SiteBase>
       <Card />
-    </main>
+    </SiteBase>
   );
 }
